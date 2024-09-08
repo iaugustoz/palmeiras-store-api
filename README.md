@@ -1,10 +1,11 @@
 # Palmeiras Store API
 
 <p align="center">
-  <a href="#-Status-do-Projeto">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Autor">Autor</a>
+  <a href="#status-do-projeto">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#autor">Autor</a>
 </p>
+
 
 ## Descrição
 
