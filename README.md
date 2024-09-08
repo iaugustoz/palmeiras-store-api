@@ -30,7 +30,8 @@ Projeto em andamento.
 ### Dependências
 
 - Lombok;
--
+- JUnit Jupiter;
+- JaCoCo.
 
 ### Instalando
 
