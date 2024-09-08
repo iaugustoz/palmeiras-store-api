@@ -6,10 +6,15 @@
   <a href="#autor">Autor</a>
 </p>
 
-
 ## Descrição
 
-Descrição em andamento.
+Este projeto nasceu da minha paixão pelo meu time de coração, o Palmeiras. Cada detalhe deste e-commerce foi pensado para refletir às tradições palestrinas e honrar o palmeirense.
+
+Meu objetivo é criar um website que vá além do padrão. Quero simbolizar o orgulho de ser palestrino, destacando o legado de vitórias e o amor por esta camisa que tanto nos traz felicidades.
+
+Este repositório se trata somente do código Back-End da aplicação. Para funcionar como um todo, o repositório [palmeiras-store-web](https://github.com/igoraugustobrz/palmeiras-store-web) deve estar interligado à API.
+
+Espero que você goste deste projeto. Fiz com o maior carinho possível.
 
 ## Status do Projeto
 
