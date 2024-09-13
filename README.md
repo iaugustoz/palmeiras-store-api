@@ -29,9 +29,12 @@ Projeto em andamento.
 
 ### Dependências
 
+- Spring Web;
 - Lombok;
-- JUnit Jupiter;
-- JaCoCo.
+- Bean Validation;
+- Spring Security;
+- JUnit Jupiter API;
+- Plugin JaCoCo.
 
 ### Instalando
 
