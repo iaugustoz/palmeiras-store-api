@@ -1,9 +1,11 @@
-package com.iaugusto.model;
+package com.iaugusto.infrastructure.persistence.entities;
 
+import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+@Embeddable
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
