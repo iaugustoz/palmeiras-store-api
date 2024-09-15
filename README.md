@@ -33,6 +33,7 @@ Projeto em andamento.
 - Lombok;
 - Bean Validation;
 - Spring Security;
+- MySQL Driver;
 - JUnit Jupiter API;
 - Plugin JaCoCo.
 
