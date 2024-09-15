@@ -3,7 +3,6 @@ package com.iaugusto.infrastructure.persistence.entities;
 import com.iaugusto.core.domains.enums.UserRole;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -29,7 +28,7 @@ public class User implements UserDetails {
     private Long id;
 
     @NotNull
-    private String nome;
+    private String name;
 
     @Email
     @NotNull
@@ -38,8 +37,15 @@ public class User implements UserDetails {
     @NotNull
     private String password;
 
+
     @NotNull
     private UserRole role; // define o tipo de usuário (ADMIN ou CLIENT)
+
+    public User(String email, String password, UserRole role) {
+        this.email = email;
+        this.password = password;
+        this.role = role;
+    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
