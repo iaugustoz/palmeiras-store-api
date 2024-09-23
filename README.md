@@ -1,4 +1,4 @@
-# 🟢 **Palmeiras Store** 🟢
+# 🟢 **Palmeiras Store API** 🟢
 
 ## 📜 **Descrição**
 
