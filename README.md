@@ -25,11 +25,12 @@ Aqui, o objetivo é ir além do comum: quero refletir as tradições do clube e 
 
 ## 📦 **Dependências**
 
-- [Spring Web]();
-- [Lombok]();
-- [Bean Validation]();
-- [Spring Security]();
-- [MySQL Driver](https://mvnrepository.com/artifact/com.mysql/mysql-connector-j);
+- [Spring Web](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web) - para trabalhar com requisições web
+- [Lombok](https://mvnrepository.com/artifact/org.projectlombok/lombok) - para reduzir a quantidade de código repetitivo
+- [Bean Validation](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation) - para realizar validações
+- [Spring Security](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security) - para implementar segurança
+- [MySQL Driver](https://mvnrepository.com/artifact/com.mysql/mysql-connector-j) - para a conexão com o MySQL
+- [Spring Data JPA](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa) - para abstração do banco de dados
 - [JUnit Jupiter API](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api) - para testes unitários
 - [Mockito](https://mvnrepository.com/artifact/org.mockito/mockito-core) - para mockar dependências
 - [Plugin JaCoCo](https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin) - para gerar relatórios dos testes unitários
@@ -54,9 +55,7 @@ cd palmeiras-store-api
 
 3. **Instale as dependências no Maven**
 
-
 4. **Inicie o projeto**
-
 
 ---
 
