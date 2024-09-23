@@ -1,86 +1,98 @@
-# Palmeiras Store API
+# 🟢 **Palmeiras Store** 🟢
 
-<p align="center">
-  <a href="#status-do-projeto">Status</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contribuindo">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#autor">Autor</a>
-</p>
+## 📜 **Descrição**
 
-## Descrição
+Este projeto nasceu da minha paixão pelo Palmeiras, o time que mora no meu coração. Cada detalhe deste e-commerce foi meticulosamente pensado para honrar o legado palestrino e simbolizar o orgulho de ser palmeirense.
 
-Este projeto nasceu da minha paixão pelo meu time de coração, o Palmeiras. Cada detalhe deste e-commerce foi pensado para refletir às tradições palestrinas e honrar o palmeirense.
+Aqui, o objetivo é ir além do comum: quero refletir as tradições do clube e transmitir o amor pela camisa que tantas vezes nos enche de alegria. 🏆💚
 
-Meu objetivo é criar um website que vá além do padrão. Quero simbolizar o orgulho de ser palestrino, destacando o legado de vitórias e o amor por esta camisa que tanto nos traz felicidades.
+> **Nota:** Este repositório contém apenas o código Back-End da aplicação. Para ver a interface que interage com a API Java, confira o repositório [palmeiras-store-web](https://github.com/iaugustoz/palmeiras-store-web).
 
-Este repositório se trata somente do código Back-End da aplicação. Para funcionar como um todo, o repositório [palmeiras-store-web](https://github.com/igoraugustobrz/palmeiras-store-web) deve estar interligado à API.
+---
 
-Espero que você goste deste projeto. Fiz com o maior carinho possível.
+## 🚀 **Status do Projeto**
 
-## Status do Projeto
+⚙️ Projeto em andamento...
 
-Projeto em andamento.
+---
 
-## Pré-requisitos
+## 💻 **Tecnologias Utilizadas**
 
-### Tecnologias
+- **Java** (v17.0.5)
+- **Spring Boot** (v3.2.9)
 
-- Java (v17.0.5);
-- Spring Boot (v3.2.9).
+---
 
-### Dependências
+## 📦 **Dependências**
 
-- Spring Web;
-- Lombok;
-- Bean Validation;
-- Spring Security;
-- MySQL Driver;
-- JUnit Jupiter API;
-- Plugin JaCoCo.
+- [Spring Web]();
+- [Lombok]();
+- [Bean Validation]();
+- [Spring Security]();
+- [MySQL Driver](https://mvnrepository.com/artifact/com.mysql/mysql-connector-j);
+- [JUnit Jupiter API](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api) - para testes unitários
+- [Mockito](https://mvnrepository.com/artifact/org.mockito/mockito-core) - para mockar dependências
+- [Plugin JaCoCo](https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin) - para gerar relatórios dos testes unitários
 
-### Instalando
+---
 
-1. Clone o repositório para o seu ambiente local:
+## 🔧 **Instalação**
 
-```
-$ git clone https://github.com/igoraugustobrz/palmeiras-store
-```
+Siga os passos abaixo para rodar o projeto localmente:
 
-2. Navegue até o diretório do projeto.
+1. **Clone o repositório:**
 
-```
-$ cd palmeiras-store
+```bash
+git clone https://github.com/iaugustoz/palmeiras-store-api
 ```
 
-## Contribuindo
+2. **Navegue até o diretório do projeto:**
 
-Contribuições são bem-vindas! Se você quiser contribuir para o projeto, siga as etapas abaixo:
+```
+cd palmeiras-store-api
+```
 
-1. Fork o repositório e clone-o para o seu ambiente local.
+3. **Instale as dependências no Maven**
 
-2. Crie uma nova branch:
+
+4. **Inicie o projeto**
+
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Para contribuir com este projeto, siga estas etapas:
+
+1. **Faça um fork do projeto e clone o repositório.**
+2. **Crie uma branch para suas alterações:**
 
 ```
 git checkout -b minha-contribuicao
 ```
 
-3. Faça as alterações desejadas e commit-as:
+3. **Implemente suas mudanças e faça o commit:**
 
 ```
 git commit -m "Minha contribuição"
 ```
 
-4. Envie suas alterações para o repositório remoto:
+4. **Envie suas alterações para o repositório remoto:**
 
 ```
 git push origin minha-contribuicao
 ```
 
-5. Abra uma solicitação de pull no repositório original.
+---
 
-## Autor
+## 👨‍💻 Autor
 
 - Igor Augusto
-- E-mail: igoraugustobz@gmail.com
-- Me siga no [Instagram](https://www.instagram.com/iaugusto__/)
-- Acesse o meu [Portfólio](https://iaugusto.vercel.app/)
-- Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/igorbrz/)
+- 📧 E-mail: iaugustodeveloper@gmail.com
+- [Instagram](https://www.instagram.com/iaugusto__/) | [Portfólio](https://iaugusto.vercel.app/) | [LinkedIn](https://www.linkedin.com/in/igorbrz/)
+
+---
+
+## ⚠️ Aviso Importante
+
+Este projeto ainda está em desenvolvimento, portanto, algumas funcionalidades podem estar incompletas ou sujeitas a alterações. Se você encontrar algum bug, não hesite em abrir uma issue!
